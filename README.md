@@ -1,10 +1,7 @@
 # RFID Card Top-Up System
 
-**Assignment Submission**  
-**Instructor:** Gabriel Baziramwabo  
+ 
 **Team ID:** its_ace  
-**Member:** Munezero Impano Christella  
-**Course:** IoT / Embedded Networking  
 
 **Keywords:** RFID Systems, IoT Architecture, MQTT Messaging, Publish-Subscribe Model, Edge Controllers, Cloud-Based Backend Services, Real-Time Web Communication, Embedded Networking
 
