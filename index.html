@@ -113,8 +113,10 @@
 
   <script>
     // === CONFIG ===
-    const BACKEND_URL = 'http://localhost:3000'; // ← Change to your deployed VPS URL later (e.g. https://your-app.onrender.com)
-    const WS_URL = BACKEND_URL.replace('http', 'ws'); // auto ws:// or wss://
+   const BACKEND_URL = "http://157.173.101.159:9252";
+const WS_URL = BACKEND_URL.replace(/^http/, "ws");
+
+const ws = new WebSocket(WS_URL);
 
     // Theme toggle
     const themeToggle = document.getElementById('themeToggle');
